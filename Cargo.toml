@@ -1,0 +1,11 @@
+[package]
+name = "coffin-decrypt"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.88"
+futures = "0.3.30"
+glob = "0.3.1"
+indicatif = "0.17.8"
+tokio = { version = "1.40.0", features = ["rt", "io-util", "macros", "fs"] }
